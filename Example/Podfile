@@ -1,0 +1,13 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '13.0'
+
+target 'KBMOB_Example' do
+  pod 'KBMOB', :path => '../'
+
+  target 'KBMOB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
