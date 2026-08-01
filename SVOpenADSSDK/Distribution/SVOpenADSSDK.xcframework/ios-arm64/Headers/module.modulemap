@@ -1,0 +1,5 @@
+module SVOpenADSSDK {
+  umbrella header "SVAdsOpen.h"
+  export *
+  module * { export * }
+}

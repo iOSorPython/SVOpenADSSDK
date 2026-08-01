@@ -47,3 +47,6 @@ Example/Pods/
 *.xcworkspace
 xcuserdata/
 Podfile.lock
+
+# Keep the implementation private; publish only SVOpenADSSDK/Distribution.
+SVOpenADSSDK/Sources/
