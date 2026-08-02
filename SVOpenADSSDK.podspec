@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'SV Open Ads SDK binary distribution.'
   s.description      = 'Precompiled SV Open Ads SDK. The implementation source is not distributed.'
-  s.homepage         = 'https://github.com/iOSorPython/KBMOB'
+  s.homepage         = 'https://github.com/iOSorPython/SVOpenADSSDK'
   s.license          = { :type => 'Proprietary', :text => 'Copyright (c) SVOpenADSSDK.' }
   s.author           = { 'iOSorPython' => 'forpenta@163.com' }
-  s.source           = { :git => 'https://github.com/iOSorPython/KBMOB.git', :tag => "SVOpenADSSDK-#{s.version}" }
+  s.source           = { :git => 'https://github.com/iOSorPython/SVOpenADSSDK.git', :tag => "SVOpenADSSDK-#{s.version}" }
   s.platform         = :ios, '13.0'
   s.static_framework = true
   s.vendored_frameworks = 'SVOpenADSSDK/Distribution/SVOpenADSSDK.xcframework'
