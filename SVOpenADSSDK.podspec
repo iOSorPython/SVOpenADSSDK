@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SVOpenADSSDK'
-  s.version          = '5.7.2'
+  s.version          = '5.7.3'
   s.summary          = 'SV Open Ads SDK binary distribution.'
   s.description      = 'Precompiled SV Open Ads SDK. The implementation source is not distributed.'
   s.homepage         = 'https://github.com/iOSorPython/SVOpenADSSDK'
